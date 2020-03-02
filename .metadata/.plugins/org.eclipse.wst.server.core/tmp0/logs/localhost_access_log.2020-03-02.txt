@@ -1,0 +1,15 @@
+127.0.0.1 - - [02/Mar/2020:13:47:26 +0530] "GET / HTTP/1.1" 404 709
+127.0.0.1 - - [02/Mar/2020:13:51:22 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:13:51:30 +0530] "GET /Testing/index.html HTTP/1.1" 200 131
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:13:51:31 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+127.0.0.1 - - [02/Mar/2020:14:53:08 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:14:53:10 +0530] "GET /Testing/WEB-INF/classes/com/web/rishabh/AddServlet.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:14:53:11 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+127.0.0.1 - - [02/Mar/2020:14:58:45 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:14:58:47 +0530] "GET /Testing/WEB-INF/classes/com/web/rishabh/AddServlet.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:14:58:47 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+127.0.0.1 - - [02/Mar/2020:15:26:37 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:15:26:39 +0530] "GET /Testing/servlet/com.web.rishabh.AddServlet HTTP/1.1" 404 759
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:15:26:39 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:15:27:39 +0530] "GET /Testing/index.html HTTP/1.1" 200 261
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:15:27:40 +0530] "GET /favicon.ico HTTP/1.1" 404 720

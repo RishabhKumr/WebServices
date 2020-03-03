@@ -65,3 +65,13 @@ Mar 02, 2020 18:36:15.58
 Mar 02, 2020 18:39:53.56 
 Mar 02, 2020 18:39:53.57 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 Mar 02, 2020 18:39:53.59 
+Mar 03, 2020 12:09:00.30 
+Mar 03, 2020 12:09:00.32 ###!!! [Child][MessageChannel] Error: (msgtype=0x1E003C,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+Mar 03, 2020 12:09:00.33 
+Mar 03, 2020 12:09:00.33 [Child 1064, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1581954009/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+Mar 03, 2020 12:09:00.72 
+Mar 03, 2020 12:09:00.73 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Mar 03, 2020 12:09:00.74 
+Mar 03, 2020 12:09:31.18 
+Mar 03, 2020 12:09:31.19 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Mar 03, 2020 12:09:31.21 

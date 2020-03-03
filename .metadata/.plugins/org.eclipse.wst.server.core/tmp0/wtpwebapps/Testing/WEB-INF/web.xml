@@ -17,12 +17,4 @@
 <servlet-name>abc</servlet-name>
 <url-pattern>/add</url-pattern>
 </servlet-mapping>
-<servlet>
-<servlet-name>ac</servlet-name>
-<servlet-class>com.web.rishabh.ToServlet</servlet-class>
-</servlet>
-<servlet-mapping>
-<servlet-name>ac</servlet-name>
-<url-pattern>/multiply</url-pattern>
-</servlet-mapping>
 </web-app>

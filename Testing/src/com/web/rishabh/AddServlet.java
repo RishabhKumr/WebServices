@@ -1,5 +1,4 @@
 package com.web.rishabh;
-
 import java.io.*;
 
 import javax.servlet.RequestDispatcher;
@@ -29,5 +28,4 @@ public class AddServlet extends HttpServlet
 		RequestDispatcher rd = req.getRequestDispatcher("multiply");
 		rd.forward(req, res);
 	}
-	
 }

@@ -1,7 +1,9 @@
 package com.web.rishabh;
 
-import java.io.PrintWriter;
 import java.io.*;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
 import javax.servlet.http.*;
 public class AddServlet extends HttpServlet
 {
@@ -18,4 +20,14 @@ public class AddServlet extends HttpServlet
 		PrintWriter out = res.getWriter();
 		out.println("result is:"+k);
 	}
+	public void doGet(HttpServletResponse res, HttpServletRequest req) throws IOException, ServletException
+	{
+		int i = Integer.parseInt(req.getParameter("num1"));
+		int j = Integer.parseInt(req.getParameter("num2"));
+		int k = i+j;
+		req.setAttribute("k",k);
+		RequestDispatcher rd = req.getRequestDispatcher("multiply");
+		rd.forward(req, res);
+	}
+	
 }

@@ -45,3 +45,23 @@ Mar 02, 2020 15:56:55.06
 Mar 02, 2020 15:57:26.62 
 Mar 02, 2020 15:57:26.63 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 Mar 02, 2020 15:57:26.64 
+Mar 02, 2020 16:40:30.48 
+Mar 02, 2020 16:40:30.55 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Mar 02, 2020 16:40:30.55 
+Mar 02, 2020 16:42:10.16 
+Mar 02, 2020 16:42:10.17 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Mar 02, 2020 16:42:10.18 
+
+Mar 02, 2020 18:27:55.54 NEW SESSION
+Mar 02, 2020 18:27:55.54 
+Mar 02, 2020 18:27:55.60 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Mar 02, 2020 18:27:55.61 
+Mar 02, 2020 18:36:15.49 
+Mar 02, 2020 18:36:15.52 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Mar 02, 2020 18:36:15.54 
+Mar 02, 2020 18:36:15.56 
+Mar 02, 2020 18:36:15.57 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Mar 02, 2020 18:36:15.58 
+Mar 02, 2020 18:39:53.56 
+Mar 02, 2020 18:39:53.57 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Mar 02, 2020 18:39:53.59 

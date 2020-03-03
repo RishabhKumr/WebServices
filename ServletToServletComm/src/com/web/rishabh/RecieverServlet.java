@@ -12,9 +12,15 @@ public class RecieverServlet extends HttpServlet
 
 	public void doGet(HttpServletRequest req,HttpServletResponse res) throws IOException,ServletException
 	{
-		int k = Integer.parseInt(req.getParameter("k"));
-		k=k*k;
+		int k = 0;
+		Cookie cookie[] = req.getCookies();
+		for(Cookie c: cookie)
+		{
+			if(c.getName().equals("k"))
+				k = Integer.parseInt(c.getValue());
+		}
+		k = k*k;
 		PrintWriter out = res.getWriter();
 		out.println(k);
-	}
+		}
 }

@@ -23,4 +23,5 @@ public class RecieverServlet extends HttpServlet
 		PrintWriter out = res.getWriter();
 		out.println(k);
 		}
+	
 }

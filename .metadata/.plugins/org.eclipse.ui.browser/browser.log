@@ -75,3 +75,20 @@ Mar 03, 2020 12:09:00.74
 Mar 03, 2020 12:09:31.18 
 Mar 03, 2020 12:09:31.19 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 Mar 03, 2020 12:09:31.21 
+Mar 03, 2020 18:54:43.74 
+Mar 03, 2020 18:54:43.85 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Mar 03, 2020 18:54:43.86 
+Mar 03, 2020 19:17:01.11 IPDL protocol error: Handler returned error code!
+Mar 03, 2020 19:17:01.17 
+Mar 03, 2020 19:17:01.19 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+Mar 03, 2020 19:17:01.35 
+Mar 03, 2020 19:17:01.36 IPDL protocol error: Handler returned error code!
+Mar 03, 2020 19:17:01.37 
+Mar 03, 2020 19:17:01.38 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+Mar 03, 2020 19:17:01.39 
+Mar 03, 2020 19:17:01.75 
+Mar 03, 2020 19:17:01.77 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Mar 03, 2020 19:17:01.78 
+Mar 03, 2020 19:33:57.51 
+Mar 03, 2020 19:33:57.53 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Mar 03, 2020 19:33:57.55 

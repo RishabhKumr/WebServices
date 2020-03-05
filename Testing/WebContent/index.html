@@ -221,7 +221,8 @@ main {
 .container {
   position: relative;
   width: 70%;
-  float: right;
+  float: left;
+  overflow: hidden;
 }
 
 .image {
@@ -231,6 +232,7 @@ main {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  position:relative;
 }
 
 .middle {
@@ -257,7 +259,7 @@ main {
   font-size: 16px;
   padding: 16px 32px;
 }
-/*ends 
+/* ends 
 */
 /* Navigation bar */
 ul {
@@ -290,7 +292,18 @@ li a:hover:not(.active) {
 /* NVBAR ENDS*/
 body
 {
-background-color: #a6a6a6;
+background-color: black;
+}
+/* parallex */
+.parallex
+{
+background-image: url("parallex.jpg");
+min-height:580px;
+width: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 </style>
 <head>
@@ -302,8 +315,9 @@ background-color: #a6a6a6;
     rel="stylesheet"
   />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="icon" href="images/icon.gif" type="image/gif" sizes="25x25">
 </head>
-
+<title>This is My WebService</title>
 <body>
   <nav class="navbar">
     <ul class="navbar-nav">
@@ -530,7 +544,7 @@ background-color: #a6a6a6;
             </g>
           </svg>
           <span class="link-text">BloB</span>
-        </a>
+        </a> 
       </li>
     </ul>
   </nav>
@@ -539,24 +553,21 @@ background-color: #a6a6a6;
   <li><a href="#news">Our Team</a></li>
   <li><a href="#contact">About</a></li>
   <li><a href="#about">Home</a></li>
+  <li><img src="images/main1.gif" alt="AI" class="img" style="width:7%; float:left; padding-right:120px;"></li>
 </ul>
-  <div class="container">
-  <img src="images/main.gif" alt="Graph Here"  class="image" style="width:100%">
-  <div class="middle">
-    <div class="text">Sign-Up</div>
-  </div>
-</div>
+
   <main>
+  <div class="parallex"></div>
+  
+  <div style="height:400px;background-color: #acb9bd;font-size:36px; opacity: 0.5;">
+SigIn/SignUp Panel:-
   <form action="add" method = "POST">
-  Enter 1st number:-<input type="text" name="num1"><br>
-  Enter 2nd number:-<input type="text" name="num2"><br>
+  UserName:-<input type="text" name="num1"><br>
+  Password:-<input type="text" name="num2"><br>
   <input type="submit">
-  </form><br><br>
-  <form action="multiply" method = "GET">
-  Enter 1st number:-<input type="text" name="num1"><br>
-  Enter 2nd number:-<input type="text" name="num2"><br>
-  <input type="submit">
-  </form>
+  </form><br>
+</div>
+ 
   </main>
 </body>
 </html>

@@ -13,8 +13,10 @@ public class MyServlet extends HttpServlet{
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
 	{
-		String name = "navin";
-		request.setAttribute("label", name);
+		//String name = "navin";
+		Data d = new Data(1);
+		
+		request.setAttribute("label",d);
 		RequestDispatcher rd = request.getRequestDispatcher("Display.jsp");
 		rd.forward(request,response);
 	}

@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -263,14 +265,13 @@
   </nav>
 <ul>
   <li><a class="active" href="login.jsp">Account</a></li>
-  <li><a  href="404.html">Contact</a></li>
-  <li><a href="404.html">Our Team</a></li>
-  <li><a href="404.html">About</a></li>
-  <li><a href="404.html">Home</a></li>
+  <li><a  href="#home">Contact</a></li>
+  <li><a href="#news">Our Team</a></li>
+  <li><a href="#About">About</a></li>
+  <li><a href="#Home">Home</a></li>
   <!--  <li><img src="images/main1.gif" alt="AI" class="img" style="width:7%; float:left; padding-right:120px;"></li>-->
 </ul>
   <main>
-  <div class="parallex"></div>
   <div style="height:400px;background-color: #acb9bd;font-size:24px;">
   <p><b>SignIn</b></p>
   <div class="formClass" style="border:2px solid; background: red;">
